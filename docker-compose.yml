@@ -1,0 +1,9 @@
+version: '2'
+services:
+  web:
+    build: .
+    ports:
+      - "6767:6767"
+    volumes:
+      - .:/go/src/testhello
+
